@@ -5,7 +5,6 @@
 }
 
 .debug{
-  background-color: rgba(255, 0, 0, 0.2);
   min-height: 10px;
   border: 1px solid black;
 }
@@ -13,32 +12,66 @@
 .row{
   display: flex;
 
-  header {
-    margin: 10px ;
-  }
 }
 
 .container{
   width: 80%;
   max-width: 1500px;
   margin: 0 auto;
+  background-color: cadetblue; /*debug*/
+  border: 1px solid black; /*debug*/
 }
-/**********HEADER**********/
 
-header{
+.container-small {
+  width: 25%;
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(95, 160, 127); /*debug*/
+  border: 1px solid black; /*debug*/
+  
+}
+
+.container-70{
+  width: 70%;
+  height: 200px; /*debug*/
+  border: 1px solid black; /*debug*/
+  background-color: chocolate; /*debug*/
+
+}
+.container-30{
+  width: 30%;
+  height: 200px; /*debug*/
+  border: 1px solid black; /*debug*/
+  background-color: darkred; /*debug*/
+
+}
+
+section {
+  margin: 20px 0; /*debug*/
+}
+
+header {
+  /*bacground-image*/
+  background-color: rgba(255, 0, 0, 0.2); /*debug*/
+}
+
+/**********HEADER-TOP**********/
+
+.header-top{
   padding: 10px 0;
 }
 
 /*****NAVBAR*****/
 
-header div .row.container{
+header .header-top .row.container{
   justify-content: space-between;
   padding: 10px 0px;
-  background-color: chartreuse; /*debug*/
-  border: 1px solid black; /*debug*/
+
 }
-header div .row.container .col{
+header .header-top .row.container .col{
   background-color: blue; /*debug*/
+  border: 1px solid black; /*debug*/
   color: white;
   padding: 5px 10px
 }
@@ -53,16 +86,60 @@ li{
   display: inline-block;
 }
 
-header div .row .col nav ul li a {
+header .header-top .row .col nav ul li a {
   color: white;
   text-decoration: none;
   margin: 0 20px;
   padding: 5px 10px;
   border: 1px solid black; /*debug*/
 }
-header div .row .col nav ul li a:hover {
+header .header-top .row .col nav ul li a:hover {
   background-color: aqua; /*debug*/
 }
 
 /*****NAVBAR*****/
+/**********HEADER-TOP**********/
 
+/**********HEADER-BOTTOM**********/
+
+header h1 {
+  text-align: center;
+}
+
+header .header-bottom .row.container-small.testo{
+  justify-content: center;
+  align-items: center;
+  min-height: 100px; /*debug*/
+}
+header .header-bottom .row.container-small.buttons{
+  justify-content: space-around;
+  padding: 10px 0px;
+  
+}
+header .header-bottom .row.container-small.buttons .col{
+  background-color: blue; /*debug*/
+  border: 1px solid black; /*debug*/
+  color: white;
+  padding: 5px 10px
+}
+
+/**********HEADER-BOTTOM**********/
+/*****LUOGO*****/
+
+main .luogo {
+  background-color: white;
+}
+
+main .luogo .row.container {
+  gap: 5%;
+}
+
+/*****LUOGO*****/
+
+main .dove {
+  background-color: white;
+}
+
+main .dove .row.container {
+  gap: 5%;
+}
