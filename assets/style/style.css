@@ -48,7 +48,7 @@
 }
 
 section {
-  margin: 20px 0; /*debug*/
+  padding: 20px 0; /*debug*/
 }
 
 header {
@@ -122,24 +122,56 @@ header .header-bottom .row.container-small.buttons .col{
   color: white;
   padding: 5px 10px
 }
-
 /**********HEADER-BOTTOM**********/
-/*****LUOGO*****/
 
-main .luogo {
+
+/*****SECTION DISPARI*****/
+main .luogo, main .community {
   background-color: white;
 }
 
-main .luogo .row.container {
+main .luogo .row.container, main .community .row.container {
   gap: 5%;
 }
+/*****SECTION DISPARI*****/
 
-/*****LUOGO*****/
 
-main .dove {
-  background-color: white;
+/*****SECTION PARI*****/
+main .dove, main .tecnology {
+  background-color: darkgrey;
 }
 
 main .dove .row.container {
   gap: 5%;
+}
+/*****SECTION PARI*****/
+/*****TECNOLOGY*****/
+main .tecnology .row.container.testo{
+  justify-content: center;
+  align-items: center;
+  height: 100px; /*debug*/
+}
+main .tecnology .row.container.imm{
+
+  height: 100px; /*debug*/
+  background-color: blueviolet; /*debug*/
+}
+main .tecnology .row.container-small.testo{
+
+  height: 100px; /*debug*/
+  background-color: rgb(192, 226, 43); /*debug*/
+  justify-content: center;
+  align-items: center;
+}
+main .tecnology .row.container-small.buttons{
+  justify-content: center;
+  padding: 10px 0px;
+  
+}
+main .tecnology .row.container-small.buttons .col{
+  background-color: blue; /*debug*/
+  border: 1px solid black; /*debug*/
+  color: white;
+  padding: 5px 10px
+  
 }
