@@ -46,6 +46,20 @@
   background-color: darkred; /*debug*/
 
 }
+.container-20{
+  width: 20%;
+  height: 200px; /*debug*/
+  border: 1px solid black; /*debug*/
+  background-color: darkred; /*debug*/
+
+}
+.container-15{
+  width: 15%;
+  height: 200px; /*debug*/
+  border: 1px solid black; /*debug*/
+  background-color: darkred; /*debug*/
+
+}
 
 section {
   padding: 20px 0; /*debug*/
@@ -125,6 +139,7 @@ header .header-bottom .row.container-small.buttons .col{
 /**********HEADER-BOTTOM**********/
 
 
+/**********MAIN**********/
 /*****SECTION DISPARI*****/
 main .luogo, main .community {
   background-color: white;
@@ -152,12 +167,12 @@ main .tecnology .row.container.testo{
   height: 100px; /*debug*/
 }
 main .tecnology .row.container.imm{
-
+  
   height: 100px; /*debug*/
   background-color: blueviolet; /*debug*/
 }
 main .tecnology .row.container-small.testo{
-
+  
   height: 100px; /*debug*/
   background-color: rgb(192, 226, 43); /*debug*/
   justify-content: center;
@@ -174,4 +189,34 @@ main .tecnology .row.container-small.buttons .col{
   color: white;
   padding: 5px 10px
   
+}
+/*****TECNOLOGY*****/
+
+/**********MAIN**********/
+/**********FOOTER**********/
+/****FOOTER-TOP*****/
+footer {
+  background-color: darkslategray ;
+}
+
+footer .footer-top .row.container {
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid white;
+
+}
+/****FOOTER-TOP*****/
+
+/****FOOTER-BOTTOM*****/
+footer .footer-bottom .row.container{
+  justify-content: space-between;
+  padding: 10px 0px;
+
+}
+footer .footer-bottom .row.container .col{
+  background-color: blue; /*debug*/
+  border: 1px solid black; /*debug*/
+  color: white;
+  padding: 5px 10px
+
 }
