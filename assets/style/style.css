@@ -108,7 +108,7 @@ header .header-top .row .col nav ul li a {
   border: 1px solid black; /*debug*/
 }
 header .header-top .row .col nav ul li a:hover {
-  background-color: aqua; /*debug*/
+  text-decoration: underline;
 }
 
 /*****NAVBAR*****/
@@ -140,6 +140,11 @@ header .header-bottom .row.container-small.buttons .col{
 
 
 /**********MAIN**********/
+
+main section {
+  padding: 150px 0;
+}
+
 /*****SECTION DISPARI*****/
 main .luogo, main .community {
   background-color: white;
